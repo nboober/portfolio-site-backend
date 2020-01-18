@@ -8,24 +8,15 @@
 
 Project.destroy_all()
 
-# Java Projects
+# React/Ruby
 
-ezbreezyairways = Project.create(      
-        language: "Java",
-        title: "EzBreezyAirways",
-        github: "https://github.com/nboober/Final_FlightReservation",
-        youtube: "N/A",
-        deploy: "https://ezbreezyairways.herokuapp.com/",
-        description: "This project is a flight reservation website for a single airline. It allows users to search for and shop for flights."
-    )
-
-bullhorn = Project.create(
-    language: "Java",
-    title: "Twitter Bullhorn",
-    github: "https://github.com/nboober/Week7Challenge_BullhornMessaging_w_Security",
+jeopardy = Project.create(
+    language: "React/ Ruby",
+    title: "Jeopardy",
+    github: "https://github.com/nboober/jeopardy-frontend",
     youtube: "N/A",
-    deploy: "https://twitterbullhorn.herokuapp.com/",
-    description: "This application is my version Twitter. It allows a user to post a message, and everyone else to see all the messages that have been posted."
+    deploy: "https://jeopardy-front.herokuapp.com/",
+    description: "This is a small Jeopardy/ Trivia application. The backend utilizes Ruby and can be found at https://github.com/nboober/jeopardy-backend."
 )
 
 # Ruby Projects
@@ -39,3 +30,22 @@ casino = Project.create(
     description: "This is a Casino Application that utilizes tokens to play games. Fake money can be used to buy tokens, and tokens can be turned in to gain fake money."
 )
 
+# Java Projects
+
+ezbreezyairways = Project.create(      
+        language: "Java",
+        title: "EzBreezyAirways",
+        github: "https://github.com/nboober/Final_FlightReservation",
+        youtube: "N/A",
+        deploy: "https://ezbreezyairways.herokuapp.com/",
+        description: "This project is a flight reservation website for a single airline. It allows users to search for and shop for flights."
+)
+
+bullhorn = Project.create(
+    language: "Java",
+    title: "Twitter Bullhorn",
+    github: "https://github.com/nboober/Week7Challenge_BullhornMessaging_w_Security",
+    youtube: "N/A",
+    deploy: "https://twitterbullhorn.herokuapp.com/",
+    description: "This application is my version Twitter. It allows a user to post a message, and everyone else to see all the messages that have been posted."
+)

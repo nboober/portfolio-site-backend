@@ -1,24 +1,24 @@
-# README
+# My Portfolio Back-End
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Introduction
+This is my portfolio project back-end. Built with Ruby on Rails
 
-Things you may want to cover:
+## APIs Used
+- https://github.com/Medium/medium-api-docs
 
-* Ruby version
+## Database Used
+This project uses PostgreSQL as a database.
 
-* System dependencies
+## Install 
+ - Fork and clone this repository
+    - You will also need to fork and clone the frontend for the visual portion of the project
+    - The backend will need to be run before the frontend in order for the game to work properly
+ - bundle install
+ - rails db:create
+ - rails db:migrate
+ - rails db:seed
+ - rails s
 
-* Configuration
+ ## Front-End
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ https://github.com/nboober/portfolio-site-frontend

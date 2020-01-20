@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2020_01_18_170349) do
 
   create_table "projects", force: :cascade do |t|
     t.string "language"
+    t.string "image"
     t.string "title"
     t.string "github"
     t.string "youtube"

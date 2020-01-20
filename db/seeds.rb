@@ -22,7 +22,7 @@ jeopardy = Project.create(
 
 today = Project.create(
     language: "React/ Ruby",
-    image: "https://res.cloudinary.com/dmfaehjot/image/upload/v1579394456/personal-portfolio/today_n7frn5.jpg",
+    image: "https://res.cloudinary.com/dmfaehjot/image/upload/v1579457279/personal-portfolio/ntMIfdqV_400x400_rzmgns.jpg",
     title: "Today",
     github: "https://github.com/nboober/today_app_final_frontend",
     youtube: "N/A",
@@ -57,7 +57,7 @@ casino = Project.create(
 # Java Projects
 
 ezbreezyairways = Project.create(      
-        language: "Java",
+        language: "JavaBack",
         image: "https://res.cloudinary.com/dmfaehjot/image/upload/v1579390839/personal-portfolio/ezbreezy_uguehj.jpg",
         title: "EzBreezyAirways",
         github: "https://github.com/nboober/Final_FlightReservation",
@@ -67,7 +67,7 @@ ezbreezyairways = Project.create(
 )
 
 bullhorn = Project.create(
-    language: "Java",
+    language: "JavaBack",
     image: "https://res.cloudinary.com/dmfaehjot/image/upload/v1579390815/personal-portfolio/bullhorn_dmz6nk.jpg",
     title: "Twitter Bullhorn",
     github: "https://github.com/nboober/Week7Challenge_BullhornMessaging_w_Security",

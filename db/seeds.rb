@@ -25,7 +25,7 @@ today = Project.create(
     image: "https://res.cloudinary.com/dmfaehjot/image/upload/v1579457279/personal-portfolio/ntMIfdqV_400x400_rzmgns.jpg",
     title: "Today",
     github: "https://github.com/nboober/today_app_final_frontend",
-    youtube: "N/A",
+    youtube: "https://youtu.be/9zx5pSmGx0k",
     deploy: "N/A",
     description: "This is a clothes management application. This application randomly generates appropriate outfits from the users wardrobe based on the whether in the users area. The backend utilizes Ruby and can be found at https://github.com/nboober/today_app_final_backend."
 )
